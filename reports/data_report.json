@@ -1,0 +1,184 @@
+{
+ "raw": {
+  "plots": 42306,
+  "movies": 81741,
+  "cast_rows": 448740,
+  "movies_with_cast": 64258
+ },
+ "join": {
+  "plots_without_metadata": 99,
+  "joined": 42207,
+  "joined_without_genres": 411
+ },
+ "plot_tokens_percentiles_1_5_25_50_75_95_99": [
+  21.0,
+  34.0,
+  87.0,
+  187.0,
+  453.0,
+  911.6999999999971,
+  1380.8800000000047
+ ],
+ "genre_map": {
+  "version": "1.0",
+  "freebase_genres_mapped": 195,
+  "freebase_genres_total": 363,
+  "label_occurrences_covered": 0.7914
+ },
+ "cleaning": {
+  "dropped_no_target_genre": 2627,
+  "min_tokens": 20,
+  "dropped_short": 281,
+  "dropped_exact_duplicates": 7,
+  "remaining": 39292
+ },
+ "labels": {
+  "targets": [
+   "Action",
+   "Adventure",
+   "Biography",
+   "Comedy",
+   "Crime",
+   "Documentary",
+   "Drama",
+   "Family",
+   "Fantasy",
+   "Historical",
+   "Horror",
+   "Musical",
+   "Mystery",
+   "Romance",
+   "Science Fiction",
+   "Sports",
+   "Thriller",
+   "War",
+   "Western"
+  ],
+  "dropped_below_min_support": [],
+  "min_support": 400,
+  "support": {
+   "Action": 7210,
+   "Adventure": 6335,
+   "Biography": 1302,
+   "Comedy": 13007,
+   "Crime": 5645,
+   "Documentary": 1252,
+   "Drama": 20465,
+   "Family": 4249,
+   "Fantasy": 2923,
+   "Historical": 2325,
+   "Horror": 4311,
+   "Musical": 2802,
+   "Mystery": 2911,
+   "Romance": 7374,
+   "Science Fiction": 2412,
+   "Sports": 690,
+   "Thriller": 7175,
+   "War": 1618,
+   "Western": 1041
+  },
+  "labels_per_movie_mean": 2.418991143235264
+ },
+ "title_leakage": {
+  "summaries_containing_own_title": 8617,
+  "rate": 0.2193,
+  "mask_threshold": 0.05,
+  "titles_masked": true
+ },
+ "split": {
+  "near_dup_threshold": 0.8,
+  "near_dup_pairs": 35,
+  "groups": 36755,
+  "multi_movie_groups": 1963,
+  "largest_group": 9,
+  "counts": {
+   "train": 27574,
+   "val": 5867,
+   "test": 5851
+  },
+  "fractions": {
+   "train": 0.7018,
+   "val": 0.1493,
+   "test": 0.1489
+  },
+  "genres_missing_from_a_split": {
+   "train": [],
+   "val": [],
+   "test": []
+  },
+  "per_split_support": {
+   "train": {
+    "Action": 5055,
+    "Adventure": 4431,
+    "Biography": 910,
+    "Comedy": 9103,
+    "Crime": 3953,
+    "Documentary": 876,
+    "Drama": 14321,
+    "Family": 2981,
+    "Fantasy": 2056,
+    "Historical": 1627,
+    "Horror": 3018,
+    "Musical": 1958,
+    "Mystery": 2039,
+    "Romance": 5164,
+    "Science Fiction": 1688,
+    "Sports": 483,
+    "Thriller": 5024,
+    "War": 1137,
+    "Western": 730
+   },
+   "val": {
+    "Action": 1075,
+    "Adventure": 947,
+    "Biography": 194,
+    "Comedy": 1946,
+    "Crime": 842,
+    "Documentary": 188,
+    "Drama": 3054,
+    "Family": 632,
+    "Fantasy": 427,
+    "Historical": 345,
+    "Horror": 643,
+    "Musical": 426,
+    "Mystery": 437,
+    "Romance": 1097,
+    "Science Fiction": 356,
+    "Sports": 104,
+    "Thriller": 1073,
+    "War": 240,
+    "Western": 154
+   },
+   "test": {
+    "Action": 1080,
+    "Adventure": 957,
+    "Biography": 198,
+    "Comedy": 1958,
+    "Crime": 850,
+    "Documentary": 188,
+    "Drama": 3090,
+    "Family": 636,
+    "Fantasy": 440,
+    "Historical": 353,
+    "Horror": 650,
+    "Musical": 418,
+    "Mystery": 435,
+    "Romance": 1113,
+    "Science Fiction": 368,
+    "Sports": 103,
+    "Thriller": 1078,
+    "War": 241,
+    "Western": 157
+   }
+  },
+  "seed": 42
+ },
+ "hashes": {
+  "raw": "2ce7f7b4babfe111",
+  "dataset": "aa841a28ca3094cd"
+ },
+ "store": {
+  "movies": 81741,
+  "cast_rows": 448740
+ }
+}

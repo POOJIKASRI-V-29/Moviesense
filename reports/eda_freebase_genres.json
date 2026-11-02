@@ -1,0 +1,1479 @@
+{
+ "stats": {
+  "raw": {
+   "plots": 42306,
+   "movies": 81741,
+   "cast_rows": 448740,
+   "movies_with_cast": 64258
+  },
+  "join": {
+   "plots_without_metadata": 99,
+   "joined": 42207,
+   "joined_without_genres": 411
+  },
+  "plot_tokens_percentiles_1_5_25_50_75_95_99": [
+   21.0,
+   34.0,
+   87.0,
+   187.0,
+   453.0,
+   911.6999999999971,
+   1380.8800000000047
+  ]
+ },
+ "n_distinct": 363,
+ "counts": [
+  [
+   "Drama",
+   19135
+  ],
+  [
+   "Comedy",
+   10468
+  ],
+  [
+   "Romance Film",
+   6666
+  ],
+  [
+   "Thriller",
+   6530
+  ],
+  [
+   "Action",
+   5869
+  ],
+  [
+   "World cinema",
+   5153
+  ],
+  [
+   "Crime Fiction",
+   4277
+  ],
+  [
+   "Horror",
+   4083
+  ],
+  [
+   "Black-and-white",
+   3731
+  ],
+  [
+   "Indie",
+   3668
+  ],
+  [
+   "Action/Adventure",
+   3553
+  ],
+  [
+   "Adventure",
+   3248
+  ],
+  [
+   "Family Film",
+   3219
+  ],
+  [
+   "Short Film",
+   3192
+  ],
+  [
+   "Romantic drama",
+   2572
+  ],
+  [
+   "Animation",
+   2441
+  ],
+  [
+   "Musical",
+   2414
+  ],
+  [
+   "Science Fiction",
+   2339
+  ],
+  [
+   "Mystery",
+   2120
+  ],
+  [
+   "Romantic comedy",
+   2075
+  ],
+  [
+   "Fantasy",
+   2012
+  ],
+  [
+   "Comedy film",
+   1779
+  ],
+  [
+   "Crime Thriller",
+   1682
+  ],
+  [
+   "War film",
+   1556
+  ],
+  [
+   "Period piece",
+   1321
+  ],
+  [
+   "Japanese Movies",
+   1290
+  ],
+  [
+   "Comedy-drama",
+   1261
+  ],
+  [
+   "Film adaptation",
+   1225
+  ],
+  [
+   "Documentary",
+   1213
+  ],
+  [
+   "Silent film",
+   1199
+  ],
+  [
+   "Psychological thriller",
+   1138
+  ],
+  [
+   "Bollywood",
+   1058
+  ],
+  [
+   "Western",
+   1022
+  ],
+  [
+   "Chinese Movies",
+   998
+  ],
+  [
+   "Black comedy",
+   834
+  ],
+  [
+   "LGBT",
+   825
+  ],
+  [
+   "Teen",
+   824
+  ],
+  [
+   "Parody",
+   767
+  ],
+  [
+   "Family Drama",
+   766
+  ],
+  [
+   "Children's/Family",
+   759
+  ],
+  [
+   "Coming of age",
+   741
+  ],
+  [
+   "Martial Arts Film",
+   706
+  ],
+  [
+   "Cult",
+   681
+  ],
+  [
+   "Sports",
+   672
+  ],
+  [
+   "Television movie",
+   665
+  ],
+  [
+   "Slasher",
+   655
+  ],
+  [
+   "Suspense",
+   651
+  ],
+  [
+   "Biographical film",
+   625
+  ],
+  [
+   "Biography",
+   592
+  ],
+  [
+   "Supernatural",
+   571
+  ],
+  [
+   "Satire",
+   532
+  ],
+  [
+   "Political drama",
+   531
+  ],
+  [
+   "Film noir",
+   524
+  ],
+  [
+   "Slapstick",
+   518
+  ],
+  [
+   "Melodrama",
+   499
+  ],
+  [
+   "Children's",
+   412
+  ],
+  [
+   "Action Thrillers",
+   405
+  ],
+  [
+   "Crime Drama",
+   391
+  ],
+  [
+   "B-movie",
+   387
+  ],
+  [
+   "Costume drama",
+   367
+  ],
+  [
+   "Biopic [feature]",
+   365
+  ],
+  [
+   "History",
+   358
+  ],
+  [
+   "Music",
+   356
+  ],
+  [
+   "Art film",
+   351
+  ],
+  [
+   "Ensemble Film",
+   349
+  ],
+  [
+   "Creature Film",
+   347
+  ],
+  [
+   "Spy",
+   342
+  ],
+  [
+   "Gangster Film",
+   338
+  ],
+  [
+   "Buddy film",
+   325
+  ],
+  [
+   "Historical fiction",
+   305
+  ],
+  [
+   "Anime",
+   305
+  ],
+  [
+   "Detective",
+   282
+  ],
+  [
+   "Road movie",
+   268
+  ],
+  [
+   "Gay Themed",
+   264
+  ],
+  [
+   "Superhero movie",
+   258
+  ],
+  [
+   "Sex comedy",
+   253
+  ],
+  [
+   "Docudrama",
+   252
+  ],
+  [
+   "Screwball comedy",
+   246
+  ],
+  [
+   "Children's Fantasy",
+   244
+  ],
+  [
+   "Disaster",
+   238
+  ],
+  [
+   "Erotica",
+   235
+  ],
+  [
+   "Zombie Film",
+   234
+  ],
+  [
+   "Crime Comedy",
+   231
+  ],
+  [
+   "Detective fiction",
+   225
+  ],
+  [
+   "Filipino Movies",
+   220
+  ],
+  [
+   "Gay",
+   219
+  ],
+  [
+   "Gay Interest",
+   217
+  ],
+  [
+   "Family-Oriented Adventure",
+   213
+  ],
+  [
+   "Comedy of manners",
+   212
+  ],
+  [
+   "Horror Comedy",
+   206
+  ],
+  [
+   "Culture & Society",
+   204
+  ],
+  [
+   "Epic",
+   196
+  ],
+  [
+   "Fantasy Comedy",
+   196
+  ],
+  [
+   "Computer Animation",
+   195
+  ],
+  [
+   "Political thriller",
+   195
+  ],
+  [
+   "Fantasy Adventure",
+   190
+  ],
+  [
+   "Courtroom Drama",
+   184
+  ],
+  [
+   "Political cinema",
+   176
+  ],
+  [
+   "Musical comedy",
+   175
+  ],
+  [
+   "Domestic Comedy",
+   172
+  ],
+  [
+   "Erotic thriller",
+   170
+  ],
+  [
+   "Comedy of Errors",
+   169
+  ],
+  [
+   "Monster movie",
+   168
+  ],
+  [
+   "Natural horror films",
+   153
+  ],
+  [
+   "Pornographic movie",
+   145
+  ],
+  [
+   "Heist",
+   145
+  ],
+  [
+   "Action Comedy",
+   142
+  ],
+  [
+   "Animal Picture",
+   141
+  ],
+  [
+   "Marriage Drama",
+   137
+  ],
+  [
+   "Musical Drama",
+   136
+  ],
+  [
+   "Stop motion",
+   134
+  ],
+  [
+   "Pre-Code",
+   130
+  ],
+  [
+   "Sci-Fi Horror",
+   124
+  ],
+  [
+   "Adventure Comedy",
+   123
+  ],
+  [
+   "Adult",
+   117
+  ],
+  [
+   "Christian film",
+   116
+  ],
+  [
+   "Monster",
+   113
+  ],
+  [
+   "Erotic Drama",
+   112
+  ],
+  [
+   "Doomsday film",
+   112
+  ],
+  [
+   "Childhood Drama",
+   111
+  ],
+  [
+   "Superhero",
+   111
+  ],
+  [
+   "Experimental film",
+   107
+  ],
+  [
+   "Historical drama",
+   107
+  ],
+  [
+   "Swashbuckler films",
+   104
+  ],
+  [
+   "Social issues",
+   101
+  ],
+  [
+   "Chase Movie",
+   100
+  ],
+  [
+   "Surrealism",
+   99
+  ],
+  [
+   "Mockumentary",
+   97
+  ],
+  [
+   "Alien Film",
+   97
+  ],
+  [
+   "Holiday Film",
+   94
+  ],
+  [
+   "Animated cartoon",
+   94
+  ],
+  [
+   "Slice of life story",
+   94
+  ],
+  [
+   "Social problem film",
+   92
+  ],
+  [
+   "Americana",
+   91
+  ],
+  [
+   "Prison",
+   90
+  ],
+  [
+   "New Hollywood",
+   86
+  ],
+  [
+   "Remake",
+   85
+  ],
+  [
+   "Combat Films",
+   84
+  ],
+  [
+   "Dystopia",
+   84
+  ],
+  [
+   "Workplace Comedy",
+   84
+  ],
+  [
+   "Avant-garde",
+   83
+  ],
+  [
+   "Sexploitation",
+   82
+  ],
+  [
+   "Christmas movie",
+   80
+  ],
+  [
+   "Caper story",
+   80
+  ],
+  [
+   "Wuxia",
+   79
+  ],
+  [
+   "Blaxploitation",
+   79
+  ],
+  [
+   "Absurdism",
+   79
+  ],
+  [
+   "Tragedy",
+   79
+  ],
+  [
+   "Political satire",
+   78
+  ],
+  [
+   "Comedy Thriller",
+   78
+  ],
+  [
+   "Costume Adventure",
+   77
+  ],
+  [
+   "Propaganda film",
+   77
+  ],
+  [
+   "Time travel",
+   77
+  ],
+  [
+   "Feminist Film",
+   76
+  ],
+  [
+   "Media Satire",
+   71
+  ],
+  [
+   "Dance",
+   69
+  ],
+  [
+   "Haunted House Film",
+   65
+  ],
+  [
+   "Historical Epic",
+   63
+  ],
+  [
+   "Tamil cinema",
+   63
+  ],
+  [
+   "Gothic Film",
+   62
+  ],
+  [
+   "Jungle Film",
+   62
+  ],
+  [
+   "Religious Film",
+   61
+  ],
+  [
+   "Revisionist Western",
+   60
+  ],
+  [
+   "Romantic fantasy",
+   59
+  ],
+  [
+   "Gross out",
+   58
+  ],
+  [
+   "Gross-out film",
+   58
+  ],
+  [
+   "Neo-noir",
+   57
+  ],
+  [
+   "Spaghetti Western",
+   56
+  ],
+  [
+   "Medical fiction",
+   56
+  ],
+  [
+   "Costume Horror",
+   55
+  ],
+  [
+   "Airplanes and airports",
+   53
+  ],
+  [
+   "Comedy Western",
+   53
+  ],
+  [
+   "Tragicomedy",
+   51
+  ],
+  [
+   "Boxing",
+   51
+  ],
+  [
+   "Auto racing",
+   50
+  ],
+  [
+   "Fairy tale",
+   48
+  ],
+  [
+   "Stoner film",
+   46
+  ],
+  [
+   "Escape Film",
+   45
+  ],
+  [
+   "Glamorized Spy Film",
+   45
+  ],
+  [
+   "Animated Musical",
+   43
+  ],
+  [
+   "Whodunit",
+   43
+  ],
+  [
+   "Addiction Drama",
+   42
+  ],
+  [
+   "Juvenile Delinquency Film",
+   42
+  ],
+  [
+   "Softcore Porn",
+   41
+  ],
+  [
+   "Rockumentary",
+   40
+  ],
+  [
+   "Sword and sorcery",
+   39
+  ],
+  [
+   "Sword and sorcery films",
+   37
+  ],
+  [
+   "Existentialism",
+   34
+  ],
+  [
+   "Sci-Fi Adventure",
+   32
+  ],
+  [
+   "Tollywood",
+   32
+  ],
+  [
+   "Roadshow theatrical release",
+   32
+  ],
+  [
+   "Apocalyptic and post-apocalyptic fiction",
+   32
+  ],
+  [
+   "Anti-war",
+   32
+  ],
+  [
+   "Anti-war film",
+   31
+  ],
+  [
+   "Hip hop movies",
+   31
+  ],
+  [
+   "Steampunk",
+   30
+  ],
+  [
+   "Splatter film",
+   29
+  ],
+  [
+   "Hybrid Western",
+   29
+  ],
+  [
+   "Future noir",
+   29
+  ],
+  [
+   "Film \u00e0 clef",
+   29
+  ],
+  [
+   "Heavenly Comedy",
+   27
+  ],
+  [
+   "Inspirational Drama",
+   27
+  ],
+  [
+   "Samurai cinema",
+   27
+  ],
+  [
+   "Crime",
+   26
+  ],
+  [
+   "Mythological Fantasy",
+   26
+  ],
+  [
+   "Giallo",
+   25
+  ],
+  [
+   "Master Criminal Films",
+   25
+  ],
+  [
+   "Pinku eiga",
+   24
+  ],
+  [
+   "Punk rock",
+   23
+  ],
+  [
+   "Gay pornography",
+   21
+  ],
+  [
+   "Law & Crime",
+   21
+  ],
+  [
+   "Interpersonal Relationships",
+   21
+  ],
+  [
+   "Heaven-Can-Wait Fantasies",
+   21
+  ],
+  [
+   "British Empire Film",
+   20
+  ],
+  [
+   "Biker Film",
+   20
+  ],
+  [
+   "Backstage Musical",
+   20
+  ],
+  [
+   "Beach Film",
+   19
+  ],
+  [
+   "B-Western",
+   19
+  ],
+  [
+   "Hagiography",
+   19
+  ],
+  [
+   "Comedy horror",
+   19
+  ],
+  [
+   "Road-Horror",
+   19
+  ],
+  [
+   "Film",
+   19
+  ],
+  [
+   "Gender Issues",
+   19
+  ],
+  [
+   "Indian Western",
+   18
+  ],
+  [
+   "Fan film",
+   18
+  ],
+  [
+   "Epic Western",
+   17
+  ],
+  [
+   "Dogme 95",
+   17
+  ],
+  [
+   "Nature",
+   17
+  ],
+  [
+   "Educational",
+   16
+  ],
+  [
+   "Sword and Sandal",
+   16
+  ],
+  [
+   "Fantasy Drama",
+   16
+  ],
+  [
+   "Animals",
+   15
+  ],
+  [
+   "Travel",
+   14
+  ],
+  [
+   "Kitchen sink realism",
+   14
+  ],
+  [
+   "Natural disaster",
+   14
+  ],
+  [
+   "Albino bias",
+   14
+  ],
+  [
+   "Illnesses & Disabilities",
+   14
+  ],
+  [
+   "Women in prison films",
+   13
+  ],
+  [
+   "British New Wave",
+   13
+  ],
+  [
+   "Prison film",
+   12
+  ],
+  [
+   "Cavalry Film",
+   12
+  ],
+  [
+   "Ealing Comedies",
+   12
+  ],
+  [
+   "Outlaw biker film",
+   12
+  ],
+  [
+   "Malayalam Cinema",
+   12
+  ],
+  [
+   "Stand-up comedy",
+   12
+  ],
+  [
+   "Exploitation",
+   12
+  ],
+  [
+   "Space western",
+   12
+  ],
+  [
+   "Movie serial",
+   11
+  ],
+  [
+   "Buddy cop",
+   11
+  ],
+  [
+   "Concert film",
+   11
+  ],
+  [
+   "Film & Television History",
+   11
+  ],
+  [
+   "Children's Entertainment",
+   11
+  ],
+  [
+   "Psycho-biddy",
+   10
+  ],
+  [
+   "Filipino",
+   10
+  ],
+  [
+   "Archaeology",
+   10
+  ],
+  [
+   "Foreign legion",
+   10
+  ],
+  [
+   "Extreme Sports",
+   10
+  ],
+  [
+   "Family & Personal Relationships",
+   10
+  ],
+  [
+   "World History",
+   10
+  ],
+  [
+   "Cold War",
+   10
+  ],
+  [
+   "Bengali Cinema",
+   10
+  ],
+  [
+   "Baseball",
+   9
+  ],
+  [
+   "Feature film",
+   8
+  ],
+  [
+   "Essay Film",
+   8
+  ],
+  [
+   "Reboot",
+   8
+  ],
+  [
+   "Legal drama",
+   8
+  ],
+  [
+   "Horse racing",
+   8
+  ],
+  [
+   "Language & Literature",
+   8
+  ],
+  [
+   "Fictional film",
+   8
+  ],
+  [
+   "Anthology",
+   7
+  ],
+  [
+   "Acid western",
+   7
+  ],
+  [
+   "Northern",
+   7
+  ],
+  [
+   "Media Studies",
+   7
+  ],
+  [
+   "Jukebox musical",
+   7
+  ],
+  [
+   "Pornography",
+   7
+  ],
+  [
+   "Hardcore pornography",
+   7
+  ],
+  [
+   "News",
+   7
+  ],
+  [
+   "Czechoslovak New Wave",
+   7
+  ],
+  [
+   "Mumblecore",
+   7
+  ],
+  [
+   "Early Black Cinema",
+   6
+  ],
+  [
+   "Parkour in popular culture",
+   6
+  ],
+  [
+   "Courtroom Comedy",
+   6
+  ],
+  [
+   "Kafkaesque",
+   6
+  ],
+  [
+   "Environmental Science",
+   6
+  ],
+  [
+   "Demonic child",
+   6
+  ],
+  [
+   "Archives and records",
+   6
+  ],
+  [
+   "Cyberpunk",
+   5
+  ],
+  [
+   "Space opera",
+   5
+  ],
+  [
+   "Sci-Fi Thriller",
+   5
+  ],
+  [
+   "Science fiction Western",
+   5
+  ],
+  [
+   "Movies About Gladiators",
+   5
+  ],
+  [
+   "Outlaw",
+   5
+  ],
+  [
+   "Mondo film",
+   5
+  ],
+  [
+   "Gulf War",
+   5
+  ],
+  [
+   "Libraries and librarians",
+   5
+  ],
+  [
+   "Operetta",
+   4
+  ],
+  [
+   "Sci Fi Pictures original films",
+   4
+  ],
+  [
+   "Graphic & Applied Arts",
+   4
+  ],
+  [
+   "Alien invasion",
+   4
+  ],
+  [
+   "Humour",
+   4
+  ],
+  [
+   "Instrumental Music",
+   4
+  ],
+  [
+   "Female buddy film",
+   4
+  ],
+  [
+   "Goat gland",
+   4
+  ],
+  [
+   "Business",
+   4
+  ],
+  [
+   "Finance & Investing",
+   4
+  ],
+  [
+   "Coming-of-age film",
+   4
+  ],
+  [
+   "Sponsored film",
+   4
+  ],
+  [
+   "Roadshow/Carny",
+   4
+  ],
+  [
+   "Computers",
+   4
+  ],
+  [
+   "Inventions & Innovations",
+   4
+  ],
+  [
+   "Plague",
+   4
+  ],
+  [
+   "School story",
+   4
+  ],
+  [
+   "Werewolf fiction",
+   4
+  ],
+  [
+   "Clay animation",
+   4
+  ],
+  [
+   "Therimin music",
+   4
+  ],
+  [
+   "Education",
+   3
+  ],
+  [
+   "Film-Opera",
+   3
+  ],
+  [
+   "Singing cowboy",
+   3
+  ],
+  [
+   "Camp",
+   3
+  ],
+  [
+   "Bloopers & Candid Camera",
+   3
+  ],
+  [
+   "Point of view shot",
+   3
+  ],
+  [
+   "Race movie",
+   3
+  ],
+  [
+   "Bruceploitation",
+   3
+  ],
+  [
+   "Health & Fitness",
+   3
+  ],
+  [
+   "Filmed Play",
+   3
+  ],
+  [
+   "Latino",
+   3
+  ],
+  [
+   "Nuclear warfare",
+   3
+  ],
+  [
+   "Supermarionation",
+   3
+  ],
+  [
+   "Psychological horror",
+   3
+  ],
+  [
+   "Vampire movies",
+   3
+  ],
+  [
+   "The Netherlands in World War II",
+   2
+  ],
+  [
+   "Prison escape",
+   2
+  ],
+  [
+   "Live action",
+   2
+  ],
+  [
+   "Conspiracy fiction",
+   2
+  ],
+  [
+   "Revenge",
+   2
+  ],
+  [
+   "Z movie",
+   2
+  ],
+  [
+   "Beach Party film",
+   2
+  ],
+  [
+   "Private military company",
+   2
+  ],
+  [
+   "Tokusatsu",
+   2
+  ],
+  [
+   "Period Horror",
+   2
+  ],
+  [
+   "Revisionist Fairy Tale",
+   2
+  ],
+  [
+   "Expressionism",
+   2
+  ],
+  [
+   "Anthropology",
+   2
+  ],
+  [
+   "Star vehicle",
+   2
+  ],
+  [
+   "Historical Documentaries",
+   2
+  ],
+  [
+   "Journalism",
+   2
+  ],
+  [
+   "War effort",
+   1
+  ],
+  [
+   "Patriotic film",
+   1
+  ],
+  [
+   "Ninja movie",
+   1
+  ],
+  [
+   "Political Documetary",
+   1
+  ],
+  [
+   "Linguistics",
+   1
+  ],
+  [
+   "Romantic thriller",
+   1
+  ],
+  [
+   "C-Movie",
+   1
+  ],
+  [
+   "Breakdance",
+   1
+  ],
+  [
+   "Chick flick",
+   1
+  ],
+  [
+   "New Queer Cinema",
+   1
+  ],
+  [
+   "Buddy Picture",
+   1
+  ],
+  [
+   "Comdedy",
+   1
+  ],
+  [
+   "Statutory rape",
+   1
+  ],
+  [
+   "Silhouette animation",
+   1
+  ],
+  [
+   "Children's Issues",
+   1
+  ],
+  [
+   "Homoeroticism",
+   1
+  ],
+  [
+   "Neorealism",
+   1
+  ]
+ ]
+}

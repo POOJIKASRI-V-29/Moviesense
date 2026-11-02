@@ -1,0 +1,252 @@
+# Coarse genre mapping for MovieSense (report §7.4 "Inconsistent genre labels", §7.5).
+#
+# Built from the Freebase genre frequencies in reports/eda_freebase_genres.json
+# (363 distinct names on the 42,207 joined movies). Each Freebase name maps to one or more
+# coarse targets; compound names (e.g. "Romantic comedy") map to all their parents.
+#
+# Deliberately UNMAPPED (ignored as labels): production format, era, origin or distribution
+# attributes that describe how/where a film was made rather than its story, and that a plot
+# sentence cannot evidence: World cinema, Black-and-white, Indie, Short Film, Japanese/Chinese/
+# Filipino Movies, Bollywood, Tollywood, Tamil/Malayalam cinema, Silent film, Film adaptation,
+# Television movie, Cult, B-movie, Pre-Code, New Hollywood, Remake, Art film, Experimental film,
+# Avant-garde, Computer Animation, Stop motion, Animation, Anime, Animated cartoon, Pornographic
+# movie, Adult, Softcore Porn, Erotica, Sexploitation, Ensemble Film, Roadshow theatrical release,
+# Film, Fan film, Movie serial, Dogme 95, Albino bias, etc. Low-frequency names not listed below
+# are also unmapped. Targets whose total support after cleaning is below `min_support`
+# are dropped by scripts/build_dataset.py and reported in reports/data_report.json.
+version: "1.0"
+min_support: 400
+targets:
+  - Action
+  - Adventure
+  - Biography
+  - Comedy
+  - Crime
+  - Documentary
+  - Drama
+  - Family
+  - Fantasy
+  - Historical
+  - Horror
+  - Musical
+  - Mystery
+  - Romance
+  - Science Fiction
+  - Sports
+  - Thriller
+  - War
+  - Western
+mapping:
+  # --- Action / Adventure ---
+  Action: Action
+  Action/Adventure: [Action, Adventure]
+  Action Thrillers: [Action, Thriller]
+  Action Comedy: [Action, Comedy]
+  Martial Arts Film: Action
+  Wuxia: [Action, Fantasy]
+  Samurai cinema: [Action, Historical]
+  Superhero movie: [Action, Fantasy]
+  Superhero: [Action, Fantasy]
+  Chase Movie: Action
+  Buddy cop: [Action, Crime, Comedy]
+  Combat Films: [Action, War]
+  Disaster: [Action, Thriller]
+  Natural disaster: [Action, Thriller]
+  Adventure: Adventure
+  Costume Adventure: [Adventure, Historical]
+  Family-Oriented Adventure: [Adventure, Family]
+  Fantasy Adventure: [Adventure, Fantasy]
+  Adventure Comedy: [Adventure, Comedy]
+  Sci-Fi Adventure: [Adventure, Science Fiction]
+  Swashbuckler films: [Adventure, Action, Historical]
+  Jungle Film: Adventure
+  Road movie: Adventure
+  Escape Film: [Adventure, Thriller]
+  Sword and sorcery: [Fantasy, Adventure, Action]
+  Sword and sorcery films: [Fantasy, Adventure, Action]
+  Sword and Sandal: [Adventure, Historical, Action]
+  Archaeology: Adventure
+  # --- Biography ---
+  Biographical film: Biography
+  Biography: Biography
+  Biopic [feature]: Biography
+  Docudrama: [Biography, Drama]
+  Hagiography: Biography
+  # --- Comedy ---
+  Comedy: Comedy
+  Comedy film: Comedy
+  Comedy-drama: [Comedy, Drama]
+  Black comedy: Comedy
+  Parody: Comedy
+  Satire: Comedy
+  Political satire: Comedy
+  Media Satire: Comedy
+  Slapstick: Comedy
+  Romantic comedy: [Romance, Comedy]
+  Sex comedy: Comedy
+  Screwball comedy: [Comedy, Romance]
+  Crime Comedy: [Crime, Comedy]
+  Horror Comedy: [Horror, Comedy]
+  Comedy horror: [Horror, Comedy]
+  Fantasy Comedy: [Fantasy, Comedy]
+  Comedy of manners: Comedy
+  Domestic Comedy: [Comedy, Family]
+  Comedy of Errors: Comedy
+  Musical comedy: [Musical, Comedy]
+  Workplace Comedy: Comedy
+  Comedy Thriller: [Comedy, Thriller]
+  Comedy Western: [Comedy, Western]
+  Gross out: Comedy
+  Gross-out film: Comedy
+  Stoner film: Comedy
+  Mockumentary: Comedy
+  Tragicomedy: [Comedy, Drama]
+  Heavenly Comedy: [Comedy, Fantasy]
+  Buddy film: Comedy
+  Stand-up comedy: Comedy
+  Ealing Comedies: Comedy
+  # --- Crime ---
+  Crime Fiction: Crime
+  Crime: Crime
+  Crime Thriller: [Crime, Thriller]
+  Crime Drama: [Crime, Drama]
+  Gangster Film: Crime
+  Heist: Crime
+  Caper story: Crime
+  Film noir: [Crime, Mystery]
+  Neo-noir: [Crime, Mystery]
+  Future noir: [Crime, Science Fiction]
+  Detective: [Crime, Mystery]
+  Detective fiction: [Crime, Mystery]
+  Master Criminal Films: Crime
+  Law & Crime: Crime
+  Prison: [Crime, Drama]
+  Prison film: [Crime, Drama]
+  Women in prison films: Crime
+  Juvenile Delinquency Film: [Crime, Drama]
+  Blaxploitation: [Crime, Action]
+  Courtroom Drama: [Crime, Drama]
+  Outlaw biker film: [Crime, Action]
+  Biker Film: Action
+  # --- Documentary ---
+  Documentary: Documentary
+  Rockumentary: [Documentary, Musical]
+  Concert film: [Documentary, Musical]
+  Culture & Society: Documentary
+  Nature: Documentary
+  Educational: Documentary
+  # --- Drama ---
+  Drama: Drama
+  Romantic drama: [Romance, Drama]
+  Family Drama: [Family, Drama]
+  Political drama: Drama
+  Melodrama: Drama
+  Costume drama: [Drama, Historical]
+  Marriage Drama: Drama
+  Musical Drama: [Musical, Drama]
+  Erotic Drama: [Drama, Romance]
+  Childhood Drama: Drama
+  Coming of age: Drama
+  Social issues: Drama
+  Social problem film: Drama
+  Slice of life story: Drama
+  Tragedy: Drama
+  Addiction Drama: Drama
+  Inspirational Drama: Drama
+  Fantasy Drama: [Fantasy, Drama]
+  Kitchen sink realism: Drama
+  Existentialism: Drama
+  Political cinema: Drama
+  Teen: Drama
+  # --- Family ---
+  Family Film: Family
+  Children's/Family: Family
+  Children's: Family
+  Children's Fantasy: [Family, Fantasy]
+  Children's Entertainment: Family
+  Animal Picture: Family
+  Holiday Film: Family
+  Christmas movie: Family
+  Fairy tale: [Fantasy, Family]
+  Animated Musical: [Musical, Family]
+  # --- Fantasy ---
+  Fantasy: Fantasy
+  Supernatural: [Fantasy, Horror]
+  Romantic fantasy: [Romance, Fantasy]
+  Mythological Fantasy: Fantasy
+  Heaven-Can-Wait Fantasies: Fantasy
+  # --- Historical ---
+  Period piece: Historical
+  History: Historical
+  Historical fiction: Historical
+  Historical drama: [Historical, Drama]
+  Historical Epic: Historical
+  Epic: Historical
+  British Empire Film: Historical
+  World History: Historical
+  Costume Horror: [Horror, Historical]
+  # --- Horror ---
+  Horror: Horror
+  Slasher: Horror
+  Creature Film: Horror
+  Zombie Film: Horror
+  Monster movie: Horror
+  Monster: Horror
+  Natural horror films: Horror
+  Sci-Fi Horror: [Science Fiction, Horror]
+  Haunted House Film: Horror
+  Gothic Film: Horror
+  Splatter film: Horror
+  Giallo: [Horror, Mystery]
+  Psycho-biddy: [Horror, Thriller]
+  Road-Horror: Horror
+  # --- Musical ---
+  Musical: Musical
+  Music: Musical
+  Dance: Musical
+  Backstage Musical: Musical
+  Hip hop movies: Musical
+  Punk rock: Musical
+  # --- Mystery ---
+  Mystery: Mystery
+  Whodunit: Mystery
+  Suspense: [Thriller, Mystery]
+  # --- Romance ---
+  Romance Film: Romance
+  # --- Science Fiction ---
+  Science Fiction: Science Fiction
+  Alien Film: Science Fiction
+  Time travel: Science Fiction
+  Dystopia: Science Fiction
+  Doomsday film: Science Fiction
+  Apocalyptic and post-apocalyptic fiction: Science Fiction
+  Steampunk: [Science Fiction, Fantasy]
+  Space western: [Science Fiction, Western]
+  # --- Sports ---
+  Sports: Sports
+  Boxing: Sports
+  Auto racing: Sports
+  Extreme Sports: Sports
+  # --- Thriller ---
+  Thriller: Thriller
+  Psychological thriller: Thriller
+  Political thriller: Thriller
+  Erotic thriller: Thriller
+  Spy: [Thriller, Action]
+  Glamorized Spy Film: [Thriller, Action]
+  # --- War ---
+  War film: War
+  Anti-war: War
+  Anti-war film: War
+  Cold War: War
+  Foreign legion: War
+  Propaganda film: War
+  # --- Western ---
+  Western: Western
+  Revisionist Western: Western
+  Spaghetti Western: Western
+  Hybrid Western: Western
+  B-Western: Western
+  Indian Western: Western
+  Epic Western: Western
+  Cavalry Film: [Western, War]

@@ -1,0 +1,6 @@
+# Transformer model (DistilBERT) + Integrated Gradients. ~1 GB installed incl. weights.
+-r requirements.txt
+torch>=2.5
+transformers>=4.45,<5
+safetensors>=0.4
+captum>=0.7

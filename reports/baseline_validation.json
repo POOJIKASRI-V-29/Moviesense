@@ -1,0 +1,230 @@
+{
+ "model": "tfidf_logreg",
+ "search": [
+  {
+   "C": 1.0,
+   "class_weight": "balanced",
+   "val_primary_macro_f1": 0.4153,
+   "val_full_macro_f1": 0.5925,
+   "fit_seconds": 57.5
+  },
+  {
+   "C": 1.0,
+   "class_weight": "none",
+   "val_primary_macro_f1": 0.4155,
+   "val_full_macro_f1": 0.5807,
+   "fit_seconds": 59.3
+  },
+  {
+   "C": 4.0,
+   "class_weight": "balanced",
+   "val_primary_macro_f1": 0.4055,
+   "val_full_macro_f1": 0.592,
+   "fit_seconds": 65.0
+  },
+  {
+   "C": 4.0,
+   "class_weight": "none",
+   "val_primary_macro_f1": 0.4115,
+   "val_full_macro_f1": 0.5898,
+   "fit_seconds": 61.0
+  },
+  {
+   "C": 16.0,
+   "class_weight": "balanced",
+   "val_primary_macro_f1": 0.3969,
+   "val_full_macro_f1": 0.583,
+   "fit_seconds": 81.0
+  },
+  {
+   "C": 16.0,
+   "class_weight": "none",
+   "val_primary_macro_f1": 0.3994,
+   "val_full_macro_f1": 0.5839,
+   "fit_seconds": 57.4
+  }
+ ],
+ "best": {
+  "C": 1.0,
+  "class_weight": "none",
+  "val_primary_macro_f1": 0.4155,
+  "val_full_macro_f1": 0.5807,
+  "fit_seconds": 59.3
+ },
+ "runs": [
+  {
+   "seed": 42,
+   "val_primary_macro_f1": 0.4155369691884167,
+   "val": {
+    "full": {
+     "macro_f1": 0.5807232963016242,
+     "micro_f1": 0.6204759892972821,
+     "macro_precision": 0.4893337446506376,
+     "macro_recall": 0.7225500959191882,
+     "micro_precision": 0.5165298944900352,
+     "micro_recall": 0.7767983074753173,
+     "hamming_loss": 0.12088128963964367,
+     "n": 5867
+    },
+    "first": {
+     "macro_f1": 0.42706112724754586,
+     "micro_f1": 0.512467702269402,
+     "macro_precision": 0.4083000117927025,
+     "macro_recall": 0.4666203195397358,
+     "micro_precision": 0.45873042412082704,
+     "micro_recall": 0.5804654442877292,
+     "hamming_loss": 0.14049141944686158,
+     "n": 5867
+    },
+    "random": {
+     "macro_f1": 0.40401281112928755,
+     "micro_f1": 0.4998655311519498,
+     "macro_precision": 0.38667316303267407,
+     "macro_recall": 0.4419511210010506,
+     "micro_precision": 0.43370495203526055,
+     "micro_recall": 0.5898448519040903,
+     "hamming_loss": 0.15014398105370808,
+     "n": 5867
+    }
+   },
+   "val_per_genre_f1_first": {
+    "Action": 0.4997907074089577,
+    "Adventure": 0.42356377799415773,
+    "Biography": 0.19237749546279492,
+    "Comedy": 0.5668751260843252,
+    "Crime": 0.45962732919254656,
+    "Documentary": 0.40654205607476634,
+    "Drama": 0.7171960015184107,
+    "Family": 0.444275966641395,
+    "Fantasy": 0.22575976845151954,
+    "Historical": 0.34178610804851156,
+    "Horror": 0.453537936913896,
+    "Musical": 0.32098765432098764,
+    "Mystery": 0.26886145404663925,
+    "Romance": 0.3986820428336079,
+    "Science Fiction": 0.5025466893039049,
+    "Sports": 0.4253393665158371,
+    "Thriller": 0.4284386617100372,
+    "War": 0.4913494809688581,
+    "Western": 0.5466237942122186
+   }
+  },
+  {
+   "seed": 13,
+   "val_primary_macro_f1": 0.4113169384654855,
+   "val": {
+    "full": {
+     "macro_f1": 0.5819589618917892,
+     "micro_f1": 0.6204831190846165,
+     "macro_precision": 0.4957290687844203,
+     "macro_recall": 0.7183808103516482,
+     "micro_precision": 0.517605467829366,
+     "micro_recall": 0.7744005641748942,
+     "hamming_loss": 0.12050451678881882,
+     "n": 5867
+    },
+    "first": {
+     "macro_f1": 0.42344445827250654,
+     "micro_f1": 0.5073140172278778,
+     "macro_precision": 0.4117382414383587,
+     "macro_recall": 0.45875420916724513,
+     "micro_precision": 0.45635390250774865,
+     "micro_recall": 0.5710860366713681,
+     "hamming_loss": 0.14110143263391134,
+     "n": 5867
+    },
+    "random": {
+     "macro_f1": 0.39918941865846447,
+     "micro_f1": 0.4983764281419122,
+     "macro_precision": 0.38572202016556983,
+     "macro_recall": 0.4339594472573743,
+     "micro_precision": 0.4343815513626834,
+     "micro_recall": 0.5844851904090268,
+     "hamming_loss": 0.14966852959909574,
+     "n": 5867
+    }
+   },
+   "val_per_genre_f1_first": {
+    "Action": 0.4794520547945205,
+    "Adventure": 0.4219285364659814,
+    "Biography": 0.20136054421768707,
+    "Comedy": 0.5635753252203105,
+    "Crime": 0.4535017221584386,
+    "Documentary": 0.42245989304812837,
+    "Drama": 0.7176721434842593,
+    "Family": 0.4301948051948052,
+    "Fantasy": 0.20299500831946754,
+    "Historical": 0.32270916334661354,
+    "Horror": 0.45051194539249145,
+    "Musical": 0.31363636363636366,
+    "Mystery": 0.29152542372881357,
+    "Romance": 0.3934288121314238,
+    "Science Fiction": 0.5291338582677165,
+    "Sports": 0.4097560975609756,
+    "Thriller": 0.4258688957325121,
+    "War": 0.47882136279926335,
+    "Western": 0.5369127516778524
+   }
+  },
+  {
+   "seed": 7,
+   "val_primary_macro_f1": 0.4136545683031905,
+   "val": {
+    "full": {
+     "macro_f1": 0.5829367889946262,
+     "micro_f1": 0.622599323510864,
+     "macro_precision": 0.5008265745450142,
+     "macro_recall": 0.709727055098058,
+     "micro_precision": 0.5244856563314981,
+     "micro_recall": 0.765867418899859,
+     "hamming_loss": 0.11810931795143219,
+     "n": 5867
+    },
+    "first": {
+     "macro_f1": 0.4269037419557112,
+     "micro_f1": 0.5102079877504146,
+     "macro_precision": 0.4203949923988383,
+     "macro_recall": 0.4519942518633898,
+     "micro_precision": 0.4658084808946878,
+     "micro_recall": 0.5639633286318759,
+     "hamming_loss": 0.13773738932297508,
+     "n": 5867
+    },
+    "random": {
+     "macro_f1": 0.40040539465066977,
+     "micro_f1": 0.4989382328501523,
+     "macro_precision": 0.39704658316655594,
+     "macro_recall": 0.42452558282378494,
+     "micro_precision": 0.4426363785289139,
+     "micro_recall": 0.5716502115655854,
+     "hamming_loss": 0.14605330438760955,
+     "n": 5867
+    }
+   },
+   "val_per_genre_f1_first": {
+    "Action": 0.4816753926701571,
+    "Adventure": 0.4346172135045174,
+    "Biography": 0.18027210884353742,
+    "Comedy": 0.5621970920840065,
+    "Crime": 0.4567741935483871,
+    "Documentary": 0.42934782608695654,
+    "Drama": 0.7225373904074265,
+    "Family": 0.42677824267782427,
+    "Fantasy": 0.24834874504623514,
+    "Historical": 0.32452830188679244,
+    "Horror": 0.4489451476793249,
+    "Musical": 0.2926829268292683,
+    "Mystery": 0.2734375,
+    "Romance": 0.3986683312526009,
+    "Science Fiction": 0.5251572327044025,
+    "Sports": 0.43010752688172044,
+    "Thriller": 0.41977702375181775,
+    "War": 0.49906890130353815,
+    "Western": 0.55625
+   }
+  }
+ ],
+ "val_primary_macro_f1_mean": 0.4135028253190309,
+ "val_primary_macro_f1_std": 0.0021141036577121872,
+ "threshold_tuning": "per genre, on validation predictions pooled across full/first/random conditions"
+}
