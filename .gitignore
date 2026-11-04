@@ -14,7 +14,7 @@ dist/
 .ipynb_checkpoints/
 
 # Large datasets and generated files
-data/
+/data/
 logs/
 
 # Model weights and checkpoints
@@ -23,3 +23,6 @@ logs/
 *.bin
 *.safetensors
 *.onnx
+
+# Large trained model artefacts (stored separately)
+/models/
